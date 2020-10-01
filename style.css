@@ -1,113 +1,70 @@
+html{
+  font-size: 65.5%;
+}
 body{
     background-color: #dbdbd9;
-    font-size: large;
 }
 video {
-    display: block;
     width: auto;
     height: 200px;
-    margin-left: 12em;
-  
-}
-#header{
+ }
+header{
   background-color: #6e6e6b;
-  }
+}
 h1 {
     color: #3b3b39;
-    display: inline;
-    vertical-align: 90px;
-    margin-left: 100px;
 }
-button {
+#projects {
     border: solid #3b3b39 2px;
     background-color: #25891a;
     padding: 5px;
     height: 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 13em;
 }
 p {
-    margin-left: 30px;
     line-height: 1.6;
     font-size: 1.1em;
 }
-img {
+/*Pet Images*/
+.aboutPets img{
   border: ridge #3b3b39 6px;
   height: 110px;
   width: auto;
   padding: 2px;
   background-color: #25891a;
-  margin: 5px;
+  
 }
-.h3-personal {
+.about{
   background-color: #6e6e6b;
   color: #3b3b39;
   font-weight: bold;
   padding: 5px;
   border: solid #25891a 2px;  
 }
-#header-image{
+.mainInfo img{
   height: 200px;
-  display: absolute;
-  width: auto;
-  margin: 0px 0px -5px 0px;
   
   }
-a{
+header a{
   color: #024f0e;
 }
 #caption{
-  margin-left: 9em;
   font-size: medium;
 }
-ul{
+.aboutHobbies, .aboutPets ul{
     line-height: 1.6;
 }
 .petname{
-    margin-left: 30px;
+    font-weight: bold;
 }
-.petattributes{
-    margin-left: 50px;
-}
-#hobbies{
-    margin-left: 100px;
-}
-h2{
+.about h2{
     text-decoration: underline;
     color: #3b3b39;
 }
-table {
-  border: solid #3b3b39 2px;
-  background-color:#3DA332;
-  padding: 10px;
-  width: 50%;
-  white-space: nowrap;
-  margin-left: auto;
-  margin-right: auto;
-}
-#table-head{
-  text-align: left; 
-}
-table, tr, td{
-            border: solid black 2px;
-            border-collapse: collapse;
-            width: 50%;
-        }
-tr,td{
-  vertical-align: bottom;
-}
-.column2-3-4{
-  text-align: right;
-}
-.column2{
-  text-align: center;
-}
-#main{
+
+.mainInfo{
   background-color:#6e6e6b;
-  width: 50%;
-  height: 300px;
-  overflow: auto;
   padding-left: 1.5em;
   font-size: 1.1em;
   }
