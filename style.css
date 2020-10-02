@@ -447,6 +447,9 @@ nav a:hover{
 #mainGallery1{
   grid-column-start: 2;
   grid-row-start: 2;
+  max-width: 30rem;
+  height: 30rem;
+  margin: -40rem 0rem 5rem 3rem;
 }
 #mainGallery2{
   grid-row-start: 2;
