@@ -620,7 +620,8 @@ nav a{
   line-height: 7rem;
 }
 .mainGallery{
-  margin:-15rem 20rem 0rem 6rem;
+  margin:-15rem 5rem 0rem 5rem;
+  width: 250vw;
 }
 #projects, #contact{
   height: auto;
