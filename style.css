@@ -640,7 +640,8 @@ footer{
 footer nav{
   background-color: #6e6e6b;
   flex-direction: row;
-  justify-content: space-between;
+  justify-items: space-around;
+  align-content: flex-end;
 }
 }
 
