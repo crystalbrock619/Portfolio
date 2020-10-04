@@ -635,7 +635,7 @@ nav a{
 }
 footer{
   width: 335vw;
-  margin: 5rem;
+  margin: -2rem 5rem 0rem 5rem;
 }
 footer nav{
   flex-direction: row;
