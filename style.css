@@ -628,7 +628,8 @@ nav a{
   margin: 10rem 0rem 0rem 20rem;
 }
 .mainGallery img{
-  height: auto;
+  height: 20rem;
+  width: 20rem;
 }
 #projects, #contact{
   height: auto;
