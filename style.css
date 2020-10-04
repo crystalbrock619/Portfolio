@@ -578,7 +578,7 @@ footer nav a:hover{
 }
 @media(max-width: 500px){
 h1{
-  width: 150vw;
+  width: 250vw;
   margin:5rem -10rem 10rem 15rem;
 }
 nav{
@@ -606,8 +606,11 @@ nav a{
   background: transparent;
 }
 .mainInfo{
-
-}
+  position: static;
+  width: 250vw;
+  font-size: 4rem;
+  
+  }
 }
 
 
