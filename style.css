@@ -360,10 +360,9 @@ h1{
   font-size: 9rem;
   text-align: center;
   background-color: #6e6e6b;
-  padding: 10%;
+  padding: 5%;
   vertical-align: middle;
   border: ridge #483D8B 1rem;
-  margin:5rem 10rem 5rem;
 }
 nav{
   display: flex;
@@ -391,7 +390,7 @@ nav a:hover{
 .mainInfo{
   position: relative;
   right: -50rem;
-  top: -40.30rem;
+  top: -40.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,6 +445,9 @@ nav a:hover{
   margin-top: -35rem;
   column-gap: 2rem;
   row-gap:2rem;
+}
+.mainGallery figure figcaption{
+  font-size: 2rem;
 }
 #mainGallery1{
   grid-column-start: 2;
