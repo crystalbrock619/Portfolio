@@ -613,6 +613,12 @@ nav a{
   margin: 5rem;
   height: 80rem;
   }
+.mainInfo h2{
+  font-size: 6rem;
+}
+.mainInfo p{
+  line-height: 2.5rem;
+}
 .mainGallery{
   margin:5rem;
 }
