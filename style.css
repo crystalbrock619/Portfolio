@@ -404,7 +404,6 @@ nav a:hover{
 }
 .mainInfo a{
   color: #1E1B2D;
-  text-decoration: none;
 }
 .mainInfo a:hover{
   text-decoration: underline;
@@ -621,6 +620,10 @@ nav a{
 }
 .mainGallery{
   margin:5rem;
+}
+#projects, #contact{
+  height: 8rem;
+  font-size: 6rem;
 }
 }
 
