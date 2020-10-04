@@ -643,6 +643,7 @@ footer{
 footer nav{
   flex-direction: row;
   width: 200vw;
+  margin: 0 auto;
 }
 }
 
