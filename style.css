@@ -625,7 +625,7 @@ nav a{
   justify-content: space-between;
   max-height: 100rem;
   width: 300vw;
-  margin: 10rem 0rem 0rem 10rem;
+  margin: 10rem 0rem 0rem 20rem;
 }
 .mainGallery img{
   height: auto;
