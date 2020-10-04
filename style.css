@@ -601,6 +601,7 @@ nav a{
 #mainImage{
   padding-left: 0rem;
   margin: 5rem;
+  margin-bottom: 0rem;
   height: 80rem;
   width: 250vw;
   background: transparent;
@@ -608,13 +609,12 @@ nav a{
 .mainInfo{
   position: static;
   width: 250vw;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 5rem;
-  margin-bottom: 0rem;
-  height: 60rem;
+  height: 80rem;
   }
 .mainGallery{
-  margin:2rem 5rem 0rem 5rem;
+  margin:5rem;
 }
 }
 
