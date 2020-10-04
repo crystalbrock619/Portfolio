@@ -609,6 +609,8 @@ nav a{
   position: static;
   width: 250vw;
   font-size: 4rem;
+  margin: 5rem;
+  height: 60rem;
   }
 .mainGallery{
   margin:5rem;
