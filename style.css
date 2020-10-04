@@ -347,6 +347,7 @@ template {
 [hidden] {
   display: none;
 }
+/*BEGIN CSS STYLE FOR SITE*/
 html{
   font-size: 65.5%;
 }
@@ -483,7 +484,7 @@ nav a:hover{
   background-color: #6e6e6b;
   color: #1E1B2D;
   font-weight: bold;
-  padding: 5px;
+  padding: .5rem;
   padding-left: 5rem;
   border: ridge #483D8B 1rem;
   font-size: 3.3rem;
@@ -571,7 +572,12 @@ footer nav a:hover{
   border-radius: 50% 0;
   text-decoration: underline;
 }
+@media(max-width: 800px){
 
+}
+@media(max-width: 500px){
+  
+}
 
 
 
