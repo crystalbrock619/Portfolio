@@ -579,7 +579,7 @@ footer nav a:hover{
 @media(max-width: 500px){
 h1{
   width: 150vw;
-  margin:5rem -10rem 10rem 10rem;
+  margin:5rem -10rem 10rem 15rem;
 }
 }
 
