@@ -624,7 +624,8 @@ nav a{
 #projects, #contact{
   height: auto;
   width: 100vw;
-  font-size: 6rem;
+  font-size: 5rem;
+  line-height: 5rem;
 }
 }
 
