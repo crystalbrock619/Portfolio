@@ -359,10 +359,11 @@ h1{
   font-size: 9rem;
   text-align: center;
   background-color: #6e6e6b;
-  padding: 10rem;
+  padding: 10%;
   vertical-align: middle;
   border: ridge #483D8B 1rem;
   margin:5rem 10rem 5rem;
+  width: 100vw;
 }
 nav{
   display: flex;
@@ -576,7 +577,9 @@ footer nav a:hover{
 
 }
 @media(max-width: 500px){
-  
+h1{
+  width: 50vw;
+}
 }
 
 
