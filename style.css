@@ -581,6 +581,13 @@ h1{
   width: 150vw;
   margin:5rem -10rem 10rem 15rem;
 }
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: ridge #483D8B 1rem;
+}
 }
 
 
