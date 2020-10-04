@@ -620,7 +620,10 @@ nav a{
   line-height: 7rem;
 }
 .mainGallery{
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, auto);
   margin: -15rem 5rem 0rem 1rem;
+
 }
 #projects, #contact{
   height: auto;
