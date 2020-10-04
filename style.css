@@ -623,9 +623,9 @@ nav a{
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  max-height: 84rem;
+  max-height: 100rem;
   width: 300vw;
-  margin: 10rem 0rem 0rem 5rem;
+  margin: 10rem 0rem 0rem 10rem;
 }
 .mainGallery img{
   height: auto;
