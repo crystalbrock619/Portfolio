@@ -627,6 +627,9 @@ nav a{
   width: 330vw;
   margin: 10rem 0rem 0rem 5rem;
 }
+.mainGallery img{
+  height: auto;
+}
 #projects, #contact{
   height: auto;
   width: 100vw;
