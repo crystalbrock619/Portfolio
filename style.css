@@ -623,7 +623,7 @@ nav a{
 }
 #projects, #contact{
   height: 15rem;
-  width: 50vw;
+  width: 100vw;
   font-size: 6rem;
 }
 }
