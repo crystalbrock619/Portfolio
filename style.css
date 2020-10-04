@@ -618,6 +618,7 @@ nav a{
 }
 .mainInfo p{
   line-height: 7rem;
+  margin: 0 auto;
 }
 .mainGallery{
   display: flex;
