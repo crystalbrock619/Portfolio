@@ -600,9 +600,9 @@ nav a{
 }
 #mainImage{
   padding-left: 0rem;
-  margin: 1rem -10rem 1rem 15rem;
+  margin: 1rem -5rem 1rem 10rem;
   height: 80rem;
-  width: 200vw;
+  width: 250vw;
   background: transparent;
 }
 .mainInfo{
