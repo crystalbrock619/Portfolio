@@ -625,7 +625,7 @@ nav a{
   justify-content: space-between;
   max-height: 84rem;
   width: 250vw;
-  margin: 20rem 0rem 0rem 5rem;
+  margin: 10rem 0rem 0rem 5rem;
 }
 #projects, #contact{
   height: auto;
