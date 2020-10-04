@@ -633,6 +633,9 @@ nav a{
   font-size: 5rem;
   line-height: 5rem;
 }
+footer{
+  width: 250vw;
+}
 }
 
 
