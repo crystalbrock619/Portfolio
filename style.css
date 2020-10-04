@@ -622,7 +622,7 @@ nav a{
   margin:5rem;
 }
 #projects, #contact{
-  height: 50rem;
+  height: 100rem;
   width: 100vw;
   font-size: 6rem;
 }
