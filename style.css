@@ -642,6 +642,7 @@ footer nav{
   flex-direction: row;
   justify-items: space-around;
   align-content: flex-end;
+  width: 250vw;
 }
 }
 
