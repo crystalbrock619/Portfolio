@@ -347,21 +347,22 @@ template {
 [hidden] {
   display: none;
 }
+/*BEGIN CSS STYLE FOR SITE*/
 html{
   font-size: 65.5%;
 }
 body{
   background-color: #9c9c98;
+  margin: 0rem;
 }
 h1{
   color: #3b3b39;
   font-size: 9rem;
   text-align: center;
   background-color: #6e6e6b;
-  padding: 10rem;
+  padding: 5%;
   vertical-align: middle;
   border: ridge #483D8B 1rem;
-  margin:5rem 10rem 5rem;
 }
 nav{
   display: flex;
@@ -389,7 +390,7 @@ nav a:hover{
 .mainInfo{
   position: relative;
   right: -50rem;
-  top: -40.30rem;
+  top: -40.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -402,7 +403,6 @@ nav a:hover{
 }
 .mainInfo a{
   color: #1E1B2D;
-  text-decoration: none;
 }
 .mainInfo a:hover{
   text-decoration: underline;
@@ -441,10 +441,13 @@ nav a:hover{
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, 50%);
   padding-bottom: 10rem;
-  margin-bottom: 20rem;
-  margin-top: -60rem;
+  margin-bottom: -7rem;
+  margin-top: -35rem;
   column-gap: 2rem;
   row-gap:2rem;
+}
+.mainGallery figure figcaption{
+  font-size: 2rem;
 }
 #mainGallery1{
   grid-column-start: 2;
@@ -483,7 +486,7 @@ nav a:hover{
   background-color: #6e6e6b;
   color: #1E1B2D;
   font-weight: bold;
-  padding: 5px;
+  padding: .5rem;
   padding-left: 5rem;
   border: ridge #483D8B 1rem;
   font-size: 3.3rem;
@@ -571,7 +574,90 @@ footer nav a:hover{
   border-radius: 50% 0;
   text-decoration: underline;
 }
+@media(max-width: 800px){
 
+}
+@media(max-width: 500px){
+h1{
+  width: 375vw;
+  margin:0rem;
+}
+nav{
+  flex-direction: column;
+  align-items: center;
+  width: 174vw;
+  height: 30rem;
+  padding: 0rem;
+  margin: 5rem -40rem 1rem 40rem;
+  border: none;
+}
+nav a{
+  background-color: #6e6e6b;
+  font-size: 4rem;
+  border-radius: 0;
+  border: ridge #483D8B 1rem;
+  width: 35rem;
+  text-align: center;
+}
+#mainImage{
+  padding-left: 0rem;
+  margin: 5rem;
+  margin-bottom: 0rem;
+  height: 80rem;
+  width: 375vw;
+  background: transparent;
+}
+.mainInfo{
+  position: static;
+  width: 375vw;
+  font-size: 5rem;
+  margin: 5rem;
+  margin-bottom: 0rem;
+  height: 80rem;
+  }
+.mainInfo h2{
+  font-size: 8rem;
+}
+.mainInfo p{
+  line-height: 7rem;
+  margin-left: 5rem;
+}
+.mainGallery{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  max-height: 200rem;
+  width: 300vw;
+  margin: 10rem 0rem 0rem 20rem;
+}
+.mainGallery img{
+  height: 40rem;
+  width: 40rem;
+}
+.mainGallery figure figcaption{
+  font-size: 5rem;
+}
+#projects, #contact{
+  height: auto;
+  width: 100vw;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+footer{
+  width: 375vw;
+  margin: -2rem 5rem 0rem 5rem;
+  padding-bottom: 15rem;
+  padding-top: 2rem;
+}
+footer nav{
+  flex-direction: row;
+  width: 200vw;
+  margin: 0 auto;
+}
+footer h2{
+  font-size: 7rem;
+}
+}
 
 
 
