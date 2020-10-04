@@ -610,11 +610,11 @@ nav a{
   width: 250vw;
   font-size: 4rem;
   margin: 5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   height: 60rem;
   }
 .mainGallery{
-  margin:5rem;
+  margin:2rem 5rem 0rem 5rem;
 }
 }
 
