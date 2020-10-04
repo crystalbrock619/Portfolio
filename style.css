@@ -602,12 +602,12 @@ nav a{
   margin: 5rem;
   margin-bottom: 0rem;
   height: 80rem;
-  width: 250vw;
+  width: 330vw;
   background: transparent;
 }
 .mainInfo{
   position: static;
-  width: 250vw;
+  width: 330vw;
   font-size: 5rem;
   margin: 5rem;
   margin-bottom: 0rem;
@@ -624,7 +624,7 @@ nav a{
   flex-flow: column wrap;
   justify-content: space-between;
   max-height: 84rem;
-  width: 250vw;
+  width: 330vw;
   margin: 10rem 0rem 0rem 5rem;
 }
 #projects, #contact{
@@ -639,7 +639,7 @@ footer{
 }
 footer nav{
   flex-direction: row;
-  width: 250vw;
+  width: 330vw;
 }
 }
 
