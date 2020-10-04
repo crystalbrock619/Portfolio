@@ -632,6 +632,9 @@ nav a{
   height: 40rem;
   width: 40rem;
 }
+.mainGallery figure figcaption{
+  font-size: 10rem;
+}
 #projects, #contact{
   height: auto;
   width: 100vw;
