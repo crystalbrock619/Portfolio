@@ -652,6 +652,9 @@ footer nav{
   width: 200vw;
   margin: 0 auto;
 }
+footer h2{
+  font-size: 7rem;
+}
 }
 
 
