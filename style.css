@@ -618,7 +618,7 @@ nav a{
 }
 .mainInfo p{
   line-height: 7rem;
-  justify-self: center;
+  margin-left: 5rem;
 }
 .mainGallery{
   display: flex;
