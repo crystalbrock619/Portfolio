@@ -637,6 +637,10 @@ footer{
   width: 250vw;
   margin: 5rem;
 }
+footer nav{
+  background-color: #6e6e6b;
+  flex-direction: row;
+}
 }
 
 
