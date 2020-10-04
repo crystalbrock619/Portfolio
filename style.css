@@ -587,7 +587,8 @@ nav{
   align-items: center;
   justify-content: center;
   width: 100vw;
-  margin:5rem -10rem 10rem 25rem;
+  height: 30rem;
+  margin:1rem -20rem 10rem 20rem;
   border: ridge #483D8B 1rem;
 }
 }
