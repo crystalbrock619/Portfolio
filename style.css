@@ -579,7 +579,7 @@ footer nav a:hover{
 @media(max-width: 500px){
 h1{
   width: 250vw;
-  margin:2rem;
+  margin:0rem;
 }
 nav{
   flex-direction: column;
