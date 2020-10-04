@@ -598,6 +598,15 @@ nav a{
   width: 25rem;
   text-align: center;
 }
+#mainImage{
+  padding-left: 0rem;
+  margin: 1rem -15rem 1rem 20rem;
+  height: 60rem;
+  background: transparent;
+}
+.mainInfo{
+
+}
 }
 
 
