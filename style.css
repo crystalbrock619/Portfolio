@@ -134,8 +134,7 @@ nav a:hover{
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, 50%);
   padding-bottom: 10rem;
-  margin-top: 2rem;
-  margin-bottom: -7rem;
+  margin: 2rem -12rem -7rem 15rem;
   column-gap: 2rem;
   row-gap:2rem;
 }
@@ -257,7 +256,37 @@ footer h2{
 }
 /*BEGIN 800PX MEDIA QUERY*/
 @media(max-width: 800px){
-
+    .mainInfo{
+        justify-content: space-between;
+    }
+    .mainText{
+        margin-right: 2rem;
+        text-align: justify;
+    }
+    .mainText h2{
+        font-size: 4rem;
+    }
+    .mainText p{
+        font-size: 2rem;
+    }
+    #mainImage{
+        width: 80%;
+        margin-right:0rem;
+    }
+    #projects{
+        font-size: 1.5rem;
+        width: 15rem;
+        margin-left: 4rem;
+    }
+    .mainGallery{
+        margin: 2rem 5rem -7rem;
+    }
+    .mainGallery figure figcaption{
+        font-size: 1.5rem;
+      }
+    footer nav{
+        font-size: 2rem;
+    }
 }
 /*BEGIN 500PX MEDIA QUERY*/
 @media(max-width: 500px){
